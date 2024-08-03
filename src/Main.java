@@ -32,6 +32,23 @@ public class Main {
         int paperForEveryone = totalPaper / (teacherLuda+ teacherAnna + teacherEkaterina);
         System.out.println("на каждого ученика расситано " + paperForEveryone + " листов бумаги");
 
+        System.out.println("Задача 4");
+        byte productionIn2Minutes = 16;
+        byte minCount = 2;
+        int productionForMinutes = productionIn2Minutes / minCount;
+        int productionFor20Minutes = productionForMinutes * 20;
+        System.out.println("за 20 минут машина произвела " + productionFor20Minutes + " штук бутылок");
+        int productionForDay = productionForMinutes * 24 * 60;
+        System.out.println("за день машина произвела " + productionForDay + " штук бутылок");
+        int productionFor3Day = productionForDay * 3;
+        System.out.println("за 3 деня машина произвела " + productionFor3Day + " штук бутылок");
+        int productionForMounth = productionForDay * 30;
+        System.out.println("за месяц машина произвела " + productionForMounth + " штук бутылок");
+
+
+
+
+
 
     }
 }

@@ -14,5 +14,15 @@ public class Main {
         double variableNumbers6 = 1.7E+308;
         System.out.println("значение переменной double = " + variableNumbers6);
 
+        // Вывел задание в коментарий, т.к. не выводим эти значения  в консоль.
+        // System.out.println("Задача 2");
+        //double a = 27.12;
+        //long b  = 987_678_965_549L;
+        //float c = 2.786F;
+        //short d = 569;
+        //short i = -159;
+        //short f = 27_897;
+        //byte g = 67;
+
     }
 }

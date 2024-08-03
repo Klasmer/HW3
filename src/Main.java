@@ -54,6 +54,21 @@ public class Main {
         int brownPaintBuy =  (brownPaint * classesAtSchool);
         System.out.println("В школе, где " + classesAtSchool + (" классов, нужно " + witePaintBuy + (" белой краски и ") + brownPaintBuy + (" банок коричневой краски")));
 
+        System.out.println("Задача 6");
+        float grammIsKg = 1000f;
+        byte banana = 80;
+        byte milk = 105;
+        byte iceCream = 100;
+        byte eggs = 70;
+        byte bananaAmount = 5;
+        byte milkAmount = 2;
+        byte iceCreamAmount = 2;
+        byte eggsAmount = 4;
+        int breakfast = (banana * bananaAmount) + (milk * milkAmount) + (iceCream * iceCreamAmount) + (eggs * eggsAmount);
+        System.out.println("Вес завтрака состовляет " + breakfast + " грамм");
+        float breakfast2 = breakfast / grammIsKg;
+        System.out.println("Вес завтрака состовляет " + breakfast2 + " килограмм");
+
 
 
 

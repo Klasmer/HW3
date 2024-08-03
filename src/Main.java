@@ -45,6 +45,15 @@ public class Main {
         int productionForMounth = productionForDay * 30;
         System.out.println("за месяц машина произвела " + productionForMounth + " штук бутылок");
 
+        System.out.println("Задача 5");
+        byte schoolRenovation = 120;
+        byte whitePaint = 2;
+        byte brownPaint = 4;
+        int classesAtSchool =  (schoolRenovation / (whitePaint + brownPaint));
+        int witePaintBuy =  (whitePaint * classesAtSchool);
+        int brownPaintBuy =  (brownPaint * classesAtSchool);
+        System.out.println("В школе, где " + classesAtSchool + (" классов, нужно " + witePaintBuy + (" белой краски и ") + brownPaintBuy + (" банок коричневой краски")));
+
 
 
 

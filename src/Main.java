@@ -69,6 +69,18 @@ public class Main {
         float breakfast2 = breakfast / grammIsKg;
         System.out.println("Вес завтрака состовляет " + breakfast2 + " килограмм");
 
+        System.out.println("Задача 7");
+        int grammToKg = 1000;
+        short weightLoss1 = 250;
+        short weightLoss2 = 500;
+        byte weight = 7;
+        int weightLossDays1 =  ((weight * grammToKg) / weightLoss1);
+        System.out.println(weightLossDays1 + " дней нужно для похудения если терять 250 грамм в сутки");
+        int weightLossDays2 =  ((weight * grammToKg) / weightLoss2);
+        System.out.println(weightLossDays2 + " дней нужно для похудения если терять 500 грамм в сутки");
+        int avgDays = (weightLossDays1 + weightLossDays2) / 2;
+        System.out.println("Что-бы добиться результата похудения, в среднем нужны " + avgDays + " сутки");
+
 
 
 

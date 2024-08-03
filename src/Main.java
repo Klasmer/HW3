@@ -24,5 +24,14 @@ public class Main {
         //short f = 27_897;
         //byte g = 67;
 
+        System.out.println("Задача 3");
+        byte teacherLuda = 23;
+        byte teacherAnna = 27;
+        byte teacherEkaterina = 30;
+        short totalPaper = 480;
+        int paperForEveryone = totalPaper / (teacherLuda+ teacherAnna + teacherEkaterina);
+        System.out.println("на каждого ученика расситано " + paperForEveryone + " листов бумаги");
+
+
     }
 }

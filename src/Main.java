@@ -81,6 +81,26 @@ public class Main {
         int avgDays = (weightLossDays1 + weightLossDays2) / 2;
         System.out.println("Что-бы добиться результата похудения, в среднем нужны " + avgDays + " сутки");
 
+        System.out.println("Задача 8");
+        int mashaSalary = 67760;
+        int denisSalary = 83690;
+        int kristinaSalary = 76230;
+        byte percent = 10;
+        float newSalaryMyltiplier = 1 + (percent / 100f);
+        float mashaNewSalary = mashaSalary * newSalaryMyltiplier;
+        float mashaTotalSalaryDiff = (mashaNewSalary - mashaSalary) * 12;
+        System.out.println("Маша теперь получает " + mashaNewSalary + " рублей. Годовой доход вырос на " + mashaTotalSalaryDiff + " рубля");
+
+        float denisNewSalary = denisSalary * newSalaryMyltiplier;
+        float denisTotalSalaryDiff = (denisNewSalary - denisSalary) * 12;
+        System.out.println("Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос на " + denisTotalSalaryDiff + " рубля");
+
+        float kristinaNewSalary = kristinaSalary * newSalaryMyltiplier;
+        float kristinaTotalSalaryDiff = (kristinaNewSalary - kristinaSalary) * 12;
+        System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " + kristinaTotalSalaryDiff + " рубля");
+
+
+
 
 
 

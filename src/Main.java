@@ -14,15 +14,22 @@ public class Main {
         double variableNumbers6 = 1.7E+308;
         System.out.println("значение переменной double = " + variableNumbers6);
 
-        // Вывел задание в коментарий, т.к. не выводим эти значения  в консоль.
-        // System.out.println("Задача 2");
-        //double a = 27.12;
-        //long b  = 987_678_965_549L;
-        //float c = 2.786F;
-        //short d = 569;
-        //short i = -159;
-        //short f = 27_897;
-        //byte g = 67;
+
+         System.out.println("Задача 2");
+        double a = 27.12;
+        System.out.println("значение переменной а с типом double = " + a);
+        long b  = 987_678_965_549L;
+        System.out.println("значение переменной b с типом long = " + b);
+        float c = 2.786F;
+        System.out.println("значение переменной c с типом float = " + c);
+        short d = 569;
+        System.out.println("значение переменной d с типом short = " + d);
+        short i = -159;
+        System.out.println("значение переменной i с типом short = " + i);
+        short f = 27_897;
+        System.out.println("значение переменной f с типом short = " + f);
+        byte g = 67;
+        System.out.println("значение переменной g с типом byte = " + g);
 
         System.out.println("Задача 3");
         byte teacherLuda = 23;
@@ -50,9 +57,9 @@ public class Main {
         byte whitePaint = 2;
         byte brownPaint = 4;
         int classesAtSchool =  (schoolRenovation / (whitePaint + brownPaint));
-        int witePaintBuy =  (whitePaint * classesAtSchool);
+        int whitePaintBuy =  (whitePaint * classesAtSchool);
         int brownPaintBuy =  (brownPaint * classesAtSchool);
-        System.out.println("В школе, где " + classesAtSchool + (" классов, нужно " + witePaintBuy + (" белой краски и ") + brownPaintBuy + (" банок коричневой краски")));
+        System.out.println("В школе, где " + classesAtSchool + (" классов, нужно " + whitePaintBuy + (" белой краски и ") + brownPaintBuy + (" банок коричневой краски")));
 
         System.out.println("Задача 6");
         float grammIsKg = 1000f;
